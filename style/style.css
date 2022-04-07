@@ -116,10 +116,11 @@ header nav .menu {
     display: grid;
   /*  display: flex;
    display: inline-block; */
-   grid-template-columns: 500px 500px 500px;
-   grid-template-rows: repeat(3, 33%);
+   grid-template-columns: 500px 500px ;
+   grid-template-rows: repeat(2, 33%);
    padding: 15px;
    justify-content: center;
+   align-items: center;
    
    
 
@@ -128,43 +129,55 @@ header nav .menu {
 
 
 .indicaciones {
-    /* display: inline-block; */
+    display: inline-block;
+    display: grid;
     border: solid 3px gray;
     color: rgba(61, 61, 61, 0.987);
     width: 100%;
 
 }
 
+.indicacionesArticle {
+    /* background-color: red; */
+    background-image: linear-gradient(to left, red, white);
+    padding: 10px;
+    
+}
+
 #tiroides {
-    display: flex;
+    /* display: flex; */
     object-fit: contain;
     justify-content: center;
+    align-items: center;
     width: 30vw;
     height: 30vh;
 }
 #fertilidad {
-    display: flex;
+    /* display: flex; */
     object-fit: contain;
     justify-content: center;
+    align-items: center;
     width: 30vw;
     height: 30vh;
 
 }
 #prostatico {
-    display: flex;
+    /* display: flex; */
     object-fit: contain;
     justify-content: center;
+    align-items: center;
     width: 30vw;
     height: 30vh;
 
 }
 
 #rutina {
-    display: flex;
+    /* display: flex; */
     object-fit: contain;
     width: 30vw;
     height: 30vh;
     justify-content: center;
+    align-items: center;
 
 }
 
@@ -179,6 +192,7 @@ h2 {
     text-align: center;
     font-size: medium;
 }
+
 
 .covidSubtitulo {
     font-size: 35px;
@@ -213,7 +227,9 @@ h2 {
 #covid {
     
      margin-left: 50px;
+     margin-top: 20px;
      float: left;
+     
 }
 
 .covidSection {
@@ -356,4 +372,244 @@ h2 {
   max-width: 500px;
   text-decoration: none;
   
+}
+
+/* Media Queries */
+
+@media (max-width: 428px) {
+
+    .indicacionesArticle {
+        /* background-color: red; */
+        background-image: linear-gradient(to left, red, white);
+        padding-left: 5px;
+        margin-right: 300px;
+        
+    }
+    .indicaciones {
+        display: inline-block;
+        display: grid;
+        border: solid 3px gray;
+        color: rgba(61, 61, 61, 0.987);
+        width: 50%;
+    
+    }
+
+    #tiroides {
+        display: flex;
+        object-fit: contain;
+        justify-content: center;
+        align-items: center;
+        width: 30vw;
+        height: 30vh;
+        margin-left: 300px;
+   
+    }
+    #fertilidad {
+        display: flex;
+        object-fit: contain;
+        justify-content: center;
+        align-items: center;
+        width: 30vw;
+        height: 30vh;
+        margin-left: 300px;
+       
+    
+    }
+    #prostatico {
+        display: flex;
+        object-fit: contain;
+        justify-content: center;
+        align-items: center;
+        width: 30vw;
+        height: 30vh;
+        margin-left: 300px;
+    
+    }
+    
+    #rutina {
+        display: flex;
+        object-fit: contain;
+        width: 30vw;
+        height: 30vh;
+        justify-content: center;
+        align-items: center;
+        margin-left: 300px;
+    
+    }
+
+    /* Desplegable Indicaciones */
+
+    main article li:hover > ul {
+        display: inline-block
+
+    }
+
+    main article li ul {
+        display: none;
+        
+    }
+
+    #fotoProfesional {
+        display: flex;
+        width: 30vw;
+        height: 20vh;
+        border: solid 2px gray
+    
+    }
+
+    #covid {
+        display: none;
+    }
+
+  
+    .formulario {
+        width: 250x;
+        height: 250px;
+        margin: 2rem;
+
+    }
+
+    #message {
+        background-color: rgba(211, 204, 204, 0.96);
+        border-radius: 10px;
+        font-size: 20px;
+        height: 61px;
+        width: 370px;
+      }
+
+      .boton {
+        text-decoration: none;
+        width: 5rem;
+        height: 3rem;
+        border-radius: 5px;
+        background-color: rgba(135, 131, 131, 0.83);
+        transition: color red, background-color 0.5s ease-in;
+      
+      }
+
+      .datosEncabezado {
+        /* border: solid 5px rgb(228, 223, 223);
+        color: rgb(86, 85, 85);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        justify-content: center;
+        font-size: 20px;
+        text-shadow: 2px 2px 3px rgb(0, 0, 0) ;
+        background-image: linear-gradient(to left, gray, white);
+        width: 100%; */
+        display: none;
+        
+    }
+
+    #logo {
+        width: 25rem;
+        height: auto;
+    }
+
+
+    }
+
+
+
+
+
+
+
+
+
+@media (max-width: 810px) {
+    #logo {
+        width: 25rem;
+        height: auto;
+    }
+
+    .barrNav {
+        border: solid 2px gray;
+        background-color: rgba(240, 14, 14, 0.933);
+        background-image: linear-gradient(gray, red);
+        border-radius: 1cm;
+        margin: 25px;
+        text-align: center;
+        justify-content: center;
+        
+    }
+
+    header nav a {
+        font-size: x-large;
+        text-decoration: none;
+    }
+
+    .indicaciones {
+        display: inline-block;
+        display: grid;
+        border: solid 3px gray;
+        color: rgba(61, 61, 61, 0.987);
+        width: 75%;
+    
+    }
+    #tiroides {
+        display: flex;
+        object-fit: contain;
+        justify-content: center;
+        align-items: center;
+        width: 30vw;
+        height: 30vh;
+        margin-left: 115px;
+   
+    }
+    #fertilidad {
+        display: flex;
+        object-fit: contain;
+        justify-content: center;
+        align-items: center;
+        width: 30vw;
+        height: 30vh;
+        margin-left: 115px;
+       
+    
+    }
+    #prostatico {
+        display: flex;
+        object-fit: contain;
+        justify-content: center;
+        align-items: center;
+        width: 30vw;
+        height: 30vh;
+        margin-left: 115px;
+    
+    }
+    
+    #rutina {
+        display: flex;
+        object-fit: contain;
+        width: 30vw;
+        height: 30vh;
+        justify-content: center;
+        align-items: center;
+        margin-left: 115px;
+    
+    }
+
+    .indicacionesArticle {
+        /* background-color: red; */
+        background-image: linear-gradient(to right, red, white);
+        padding-left: -100px;
+        border-radius: 20px;
+       width: 80%;
+        
+        
+    }
+
+
+    
+
+}
+
+@media (min-width: 1080px) {
+    
+}
+
+
+@media (min-width: 1300px) {
+    
 }
