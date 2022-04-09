@@ -53,11 +53,11 @@ header .header__burguerMenu {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(245, 69, 69);
+    border: none;
     width: 2.5rem;
     height: 2.5rem;
     font-size: 2rem;
-    background-color: rgb(245, 69, 69);
-    border: none;
     color: grey;
     border-radius: 7px;
     cursor: cell;
