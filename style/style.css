@@ -45,6 +45,14 @@ li {
     list-style: none;
 }
 
+/* Style Bootstrap */
+.navbar-expand-lg .navbar-collapse {
+    background-image: linear-gradient(to right, rgb(210, 29, 29), gray);
+}
+
+.container-fluid {
+    background-image: linear-gradient(to left, gray, white);
+}
 
 /*  */
 
