@@ -54,6 +54,22 @@ li {
     background-image: linear-gradient(to left, gray, white);
 }
 
+.navbar-expand-lg .navbar-collapse {
+    border-radius: 20px;
+}
+
+.accordion-button {
+    background-image: linear-gradient(to right, red, white);
+    color: black;
+    
+}
+
+button.accordion-button {
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
 /*  */
 
 
