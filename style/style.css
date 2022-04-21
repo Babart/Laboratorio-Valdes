@@ -215,6 +215,10 @@ header nav .menu {
     text-align: center;
 }
 
+.IndicacionesReceta {
+    background-image: linear-gradient(to bottom, gray, white);
+}
+
 
 .analisisIndicaciones {
     display: grid;
