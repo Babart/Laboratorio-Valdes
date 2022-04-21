@@ -73,6 +73,8 @@ button.accordion-button {
     background-image: linear-gradient(to bottom, white, rgb(196, 196, 246));
 }
 
+
+
 /*  */
 
 
@@ -207,6 +209,11 @@ header nav .menu {
 
 /* Main Style */
 
+
+.homeIndex {
+    margin-left: 10px;
+    text-align: center;
+}
 
 
 .analisisIndicaciones {
