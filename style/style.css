@@ -216,8 +216,16 @@ header nav .menu {
 }
 
 .IndicacionesReceta {
-    background-image: linear-gradient(to bottom, rgb(210, 29, 29), white);
+    background-image: linear-gradient(to bottom, gray, white);
+    
 }
+
+.recetarios {
+    display: flex;
+    flex-direction: row;
+}
+
+
 
 .IndexFinal {
     background-image: linear-gradient(to top, gray, white);
