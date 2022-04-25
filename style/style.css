@@ -9,8 +9,8 @@
 
 /* Header Style */
 
-header {
-    /* display: block; */
+/* header {
+   
     display: flex;
     display: inline-block;
     width: 100%;
@@ -18,9 +18,9 @@ header {
     
    
 
-}
+} */
 
-header nav a:link{
+/* header nav a:link{
     color:rgb(15, 1, 15)
 
 }
@@ -39,24 +39,28 @@ header nav a:hover{
 header nav a:active{
     color: gray
 
-}
+} */
 
-li {
+/* li {
     list-style: none;
-}
+} */
 
-/* Style Bootstrap */
-.navbar-expand-lg .navbar-collapse {
+/* Style Bootstrap */   /* DALEEEEE VOS PODESSSSSSS!!!!!!!!  */
+
+/* .navbar-expand-lg .navbar-collapse {
     background-image: linear-gradient(to right, rgb(210, 29, 29), gray);
+    border-radius: 20px;
 }
 
 .container-fluid {
     background-image: linear-gradient(to left, gray, white);
-}
+} */
 
-.navbar-expand-lg .navbar-collapse {
+/* .navbar-expand-lg .navbar-collapse {
     border-radius: 20px;
-}
+} */
+
+/*  */ /*  */ /*  *//*  *//*  *//*  *//*  *//*  */
 
 .accordion-button {
     background-image: linear-gradient(to right, gray , white);
@@ -78,7 +82,7 @@ button.accordion-button {
 /*  */
 
 
-header .header__burguerMenu {
+/* header .header__burguerMenu {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,17 +95,17 @@ header .header__burguerMenu {
     border-radius: 7px;
     cursor: cell;
     transition: box-shadow 0.5s ease-in;
-  }
+  } */
 
-  header button.header__burguerMenu:hover {
+ /*  header button.header__burguerMenu:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   }
-  
-  input#menu:checked ~ .header__menu {
+   */
+ /*  input#menu:checked ~ .header__menu {
     display: block;
-  } 
+  }  */
 
-  header .header__menu {
+ /*  header .header__menu {
     display: none;
     position: fixed;
     top: 0;
@@ -109,17 +113,17 @@ header .header__burguerMenu {
     width: 100%; 
     height: 100%;
     background-color: red;
-  }
+  } */
   
-  header .header__menu .header__closeMenu {
+ /*  header .header__menu .header__closeMenu {
     position: absolute;
     top: 1rem;
     right: 1rem;
     font-size: 1.5rem;
     
   }
-
-  header .header__menu ul {
+ */
+ /*  header .header__menu ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -133,14 +137,14 @@ header .header__burguerMenu {
     font-weight: 600;
     border-radius: 5px;
     padding: 0.5rem;
-  }
+  } */
   
-  header .header__menu ul li:hover {
+/*   header .header__menu ul li:hover {
     background-color: rgb(193, 177, 177);
-  }
+  } */
   
   
-  header #header__menu--itemGallery ul {
+/*   header #header__menu--itemGallery ul {
     flex-direction: column;
     border-radius: 10px;
   }
@@ -149,11 +153,11 @@ header .header__burguerMenu {
     color: rgb(160, 160, 160);
     text-transform: capitalize;
     font-weight: 400px;
-  }
+  } */
 
   /*  */
 
-.barrNav {
+/* .barrNav {
     border: solid 2px gray;
     background-color: rgba(240, 14, 14, 0.933);
     background-image: linear-gradient(red, gray);
@@ -164,9 +168,9 @@ header .header__burguerMenu {
     
 
     
-}
+} */
 
-header nav .menu {
+/* header nav .menu {
     display: inline-flex;
     display: inline-block;
     text-align: center;
@@ -179,7 +183,7 @@ header nav .menu {
     
     
 }
-
+ */
 
 #logo {
     display: flex;
@@ -188,7 +192,7 @@ header nav .menu {
     height: 30%;
 }
 
-.encabezado {
+/* .encabezado {
     display: flex;
     
     
@@ -204,13 +208,13 @@ header nav .menu {
     background-image: linear-gradient(to left, gray, white);
     width: 100%;
     
-}
+} */
 
 
 /* Main Style */
 
 
-.homeIndex {
+/* .homeIndex {
     margin-left: 10px;
     text-align: center;
     font-size: 20px;
@@ -225,7 +229,7 @@ header nav .menu {
     display: flex;
     flex-direction: row;
 }
-
+ */
 
 
 .IndexFinal {
@@ -467,12 +471,11 @@ h2 {
 /* Footer Style */
 
 
-#footer {
-   /*  display: flex; */
+/* footer {
    background-color: rgb(194, 193, 193);
-}
+} */
 
-.foot {
+/* .foot {
     
     font-size: 20px;
     text-align: center;
@@ -480,9 +483,9 @@ h2 {
     background-image: linear-gradient(to left, gray, white);
     
 
-}
+} */
 
-.socialMedia a {
+/* .socialMedia a {
     
   display: flex;
   text-decoration: none;
@@ -511,7 +514,7 @@ h2 {
   max-width: 500px;
   text-decoration: none;
   
-}
+} */
 
 
 

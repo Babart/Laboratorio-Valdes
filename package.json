@@ -4,10 +4,9 @@
   "description": "Tema: Página Web de un Laboratorio Privado de la Provincia de Mendoza.-",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1", 
-    "build-css": "node-sass --include-path scss scss/prueba.scss style/pruebacss.css",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/estilosSass.scss style/estilosNuevos.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
-
   },
   "repository": {
     "type": "git",
@@ -22,5 +21,6 @@
   "dependencies": {
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.15"
-  }
+  },
+  "devDependencies": {}
 }

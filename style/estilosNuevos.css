@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+
+header {
+  display: flex;
+  display: inline-block;
+  width: 100%; }
+  header .encabezado {
+    display: flex; }
+    header .encabezado .datosEncabezado {
+      border: solid 5px #e4dfdf;
+      color: #565555;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-align: center;
+      justify-content: center;
+      font-size: 20px;
+      text-shadow: 2px 2px 3px black;
+      background-image: linear-gradient(to left, gray, white);
+      width: 100%; }
+      header .encabezado .datosEncabezado li {
+        list-style: none; }
+  header .navbar-expand-lg .navbar-collapse {
+    background-image: linear-gradient(to right, #d21d1d, gray);
+    border-radius: 20px; }
+    header .navbar-expand-lg .navbar-collapse .container-fluid {
+      background-image: linear-gradient(to left, gray, white); }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+
+main .IndicacionesReceta {
+  background-image: linear-gradient(to bottom, gray, white); }
+  main .IndicacionesReceta .homeIndex {
+    margin-left: 10px;
+    text-align: center;
+    font-size: 20px; }
+  main .IndicacionesReceta .recetarios {
+    display: flex;
+    flex-direction: row; }
+  main .IndicacionesReceta .socialMedia {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 500px;
+    text-decoration: none; }
+    main .IndicacionesReceta .socialMedia a {
+      display: flex;
+      text-decoration: none;
+      justify-content: center;
+      align-items: center;
+      font-size: 3rem;
+      width: 5rem;
+      height: 5rem;
+      color: white;
+      background-color: rgba(135, 131, 131, 0.83);
+      border-radius: 50%;
+      transition: color, background-color 0.5s ease-in; }
+      main .IndicacionesReceta .socialMedia a:hover {
+        color: red;
+        background-color: rgba(255, 0, 0, 0.689);
+        text-decoration: none; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+
+footer {
+  background-color: #c2c1c1; }
+  footer .foot {
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    background-image: linear-gradient(to left, gray, white); }
+  footer .socialMedia {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 500px;
+    text-decoration: none; }
+    footer .socialMedia a {
+      display: flex;
+      text-decoration: none;
+      justify-content: center;
+      align-items: center;
+      font-size: 3rem;
+      width: 5rem;
+      height: 5rem;
+      color: white;
+      background-color: rgba(135, 131, 131, 0.83);
+      border-radius: 50%;
+      transition: color, background-color 0.5s ease-in; }
+      footer .socialMedia a:hover {
+        color: red;
+        background-color: rgba(255, 0, 0, 0.689);
+        text-decoration: none; }
