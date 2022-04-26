@@ -11,10 +11,17 @@
  //HEADER SASS 
 
 @import "header.scss";
-@import "index.scss";
-@import "footer.scss";
 
+
+//MAIN SASS
+
+@import "index.scss";
+@import "indicaciones.scss";
+@import "resultados.scss";
+@import "covid.scss";
+@import "contacto.scss";
 
 
 //FOOTER SASS
 
+@import "footer.scss";

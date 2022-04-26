@@ -62,20 +62,23 @@ header nav a:active{
 
 /*  */ /*  */ /*  *//*  *//*  *//*  *//*  *//*  */
 
-.accordion-button {
+/* .accordion-button {
     background-image: linear-gradient(to right, gray , white);
     color: black;
-    
-}
-
-button.accordion-button {
     font-size: 20px;
     text-align: center;
     justify-content: center;
-}
-.accordion-body {
+    
+} */
+
+/* button.accordion-button {
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+} */
+/* .accordion-body {
     background-image: linear-gradient(to bottom, white, rgb(196, 196, 246));
-}
+} */
 
 
 
@@ -270,50 +273,15 @@ button.accordion-button {
     
 }
 
-#tiroides {
-    /* display: flex; */
-    object-fit: contain;
-    justify-content: center;
-    align-items: center;
-    width: 30vw;
-    height: 30vh;
-}
-#fertilidad {
-    /* display: flex; */
-    object-fit: contain;
-    justify-content: center;
-    align-items: center;
-    width: 30vw;
-    height: 30vh;
 
-}
-#prostatico {
-    /* display: flex; */
-    object-fit: contain;
-    justify-content: center;
-    align-items: center;
-    width: 30vw;
-    height: 30vh;
 
-}
-
-#rutina {
-    /* display: flex; */
-    object-fit: contain;
-    width: 30vw;
-    height: 30vh;
-    justify-content: center;
-    align-items: center;
-
-}
-
-h1 {
+/* .tituloCovid {
     font-size:  40px;
     color: red;
     text-align: center;
 }
 
-h2 {
+.tituloCovid2 {
     text-decoration: underline;
     text-align: center;
     font-size: medium;
@@ -388,22 +356,27 @@ h2 {
     border-radius:  5px;
     width: 30%;
    
-}
+} */
 
-#mapa{
+/* #mapa{
     display: flex;
-}
+} */
 
-#labFondo {
-    /* background-image: url(../image/labFondo2.jpg); */
+/* #labFondo {
+    background-image: url(../image/labFondo2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.95;
     z-index: 0;
     
-}
+} */
 
-#telefono {
+
+/* CONTACTO  */
+
+
+
+/* #telefono {
     background-color: rgba(245, 165, 165, 0.96);
     border-radius: 10px;
     margin-bottom: 5px;
@@ -458,12 +431,19 @@ h2 {
   background-color: rgba(135, 131, 131, 0.83);
   transition: color red, background-color 0.5s ease-in;
 
-}
+} */
 
-.resultadoMain {
+
+/* TUS RESULTADOS ONLINE */
+
+/* .resultadoMain {
     background-image: linear-gradient(to bottom, gray, white);
+} */
+/* 
+.recicle {
+    width: 100%;
 }
-
+ */
 
 
 
