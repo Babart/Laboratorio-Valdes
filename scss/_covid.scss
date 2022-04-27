@@ -32,11 +32,7 @@ main {
             text-align: center;
         }
         
-        .tituloCovid2 {
-            text-decoration: underline;
-            text-align: center;
-            font-size: medium;
-        }
+        
         .covidExplicacion {
             display: flex;
             justify-content: center;
@@ -54,6 +50,17 @@ main {
         background-image: linear-gradient(to bottom, gray, white);
         .covid1{
             font-size: 20px;
+        }
+        .tituloCovid {
+            font-size:  40px;
+            color: red;
+            text-align: center;
+        }
+        .tituloCovid2 {
+            text-decoration: underline;
+            text-align: center;
+            font-size: 40px;
+            
         }
     }
     .profBioq {

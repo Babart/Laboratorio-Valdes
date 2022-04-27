@@ -235,16 +235,16 @@ header nav a:active{
  */
 
 
-.IndexFinal {
+/* .IndexFinal {
     background-image: linear-gradient(to top, gray, white);
-}
+} */
 
 
 
-.analisisIndicaciones {
+/* .analisisIndicaciones {
     display: grid;
-  /*  display: flex;
-   display: inline-block; */
+   display: flex;
+   display: inline-block;
    grid-template-columns: 500px 500px ;
    grid-template-rows: repeat(2, 33%);
    padding: 15px;
@@ -254,10 +254,10 @@ header nav a:active{
    
 
     
-}
+} */
 
 
-.indicaciones {
+/* .indicaciones {
     display: inline-block;
     display: grid;
     border: solid 3px gray;
@@ -265,17 +265,19 @@ header nav a:active{
     width: 100%;
 
 }
-
-.indicacionesArticle {
-    /* background-color: red; */
+ */
+/* .indicacionesArticle {
+    background-color: red;
     background-image: linear-gradient(to left, red, white);
     padding: 10px;
     
-}
+} */
 
 
 
-/* .tituloCovid {
+
+
+ /* .tituloCovid {
     font-size:  40px;
     color: red;
     text-align: center;
@@ -285,9 +287,9 @@ header nav a:active{
     text-decoration: underline;
     text-align: center;
     font-size: medium;
-}
+} */
 
-
+/* 
 .covidSubtitulo {
     font-size: 35px;
     color: red;
@@ -539,48 +541,7 @@ header nav a:active{
     
     }
 
-    #tiroides {
-        display: flex;
-        object-fit: contain;
-        justify-content: center;
-        align-items: center;
-        width: 30vw;
-        height: 30vh;
-        margin-left: 300px;
    
-    }
-    #fertilidad {
-        display: flex;
-        object-fit: contain;
-        justify-content: center;
-        align-items: center;
-        width: 30vw;
-        height: 30vh;
-        margin-left: 300px;
-       
-    
-    }
-    #prostatico {
-        display: flex;
-        object-fit: contain;
-        justify-content: center;
-        align-items: center;
-        width: 30vw;
-        height: 30vh;
-        margin-left: 300px;
-    
-    }
-    
-    #rutina {
-        display: flex;
-        object-fit: contain;
-        width: 30vw;
-        height: 30vh;
-        justify-content: center;
-        align-items: center;
-        margin-left: 300px;
-    
-    }
 
     /* Desplegable Indicaciones */
 
@@ -842,26 +803,5 @@ header nav a:active{
 
 }
 
-@media screen and (min-width: 1080px) {
-
-    
-    
 
 
-
- 
-    
-}
-
-
-@media screen and (min-width: 1300px) {
-
- 
-
- 
-
-
-  
-
-
-}
