@@ -188,12 +188,12 @@ header nav a:active{
 }
  */
 
-#logo {
+/* #logo {
     display: flex;
     position: relative;
     width: 30%;
     height: 30%;
-}
+} */
 
 /* .encabezado {
     display: flex;
@@ -515,51 +515,16 @@ header nav a:active{
 
 
 
-    .barrNav {
-       /*  border: solid 2px gray;
-        background-color: rgba(240, 14, 14, 0.933);
-        background-image: linear-gradient(red, gray);
-        border-radius: 1cm;
-        margin: 25px;
-        text-align: center;
-        justify-content: center; */
-        display: none;
-        
     
-        
-    }
-
-    .indicacionesArticle {
-        /* background-color: red; */
-        background-image: linear-gradient(to left, red, white);
-        padding-left: 5px;
-        margin-right: 300px;
-        
-    }
-    .indicaciones {
-        display: inline-block;
-        display: grid;
-        border: solid 3px gray;
-        color: rgba(61, 61, 61, 0.987);
-        width: 50%;
-    
-    }
+ 
 
    
 
     /* Desplegable Indicaciones */
 
-    main article li:hover > ul {
-        display: inline-block
+  
 
-    }
-
-    main article li ul {
-        display: none;
-        
-    }
-
-    #fotoProfesional {
+/*     #fotoProfesional {
         display: flex;
         width: 30vw;
         height: 20vh;
@@ -577,9 +542,9 @@ header nav a:active{
         height: 250px;
         margin: 2rem;
 
-    }
+    } */
 
-    #message {
+   /*  #message {
         background-color: rgba(211, 204, 204, 0.96);
         border-radius: 10px;
         font-size: 20px;
@@ -595,9 +560,9 @@ header nav a:active{
         background-color: rgba(135, 131, 131, 0.83);
         transition: color red, background-color 0.5s ease-in;
       
-      }
+      } */
 
-      .datosEncabezado {
+    /*   .datosEncabezado { */
         /* border: solid 5px rgb(228, 223, 223);
         color: rgb(86, 85, 85);
         font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -607,11 +572,11 @@ header nav a:active{
         text-shadow: 2px 2px 3px rgb(0, 0, 0) ;
         background-image: linear-gradient(to left, gray, white);
         width: 100%; */
-        display: none;
+   /*      display: none; */
         
-      }
+  /*     } */
 
-        #logo {
+        /* #logo {
             width: 25rem;
             height: auto;
         }
@@ -692,7 +657,7 @@ header nav a:active{
             color: rgb(186, 185, 185);
             text-transform: capitalize;
             font-weight: 400;
-          }
+          } */
 
         
 
@@ -706,13 +671,13 @@ header nav a:active{
 
 
 
-
-@media screen and (min-width: 810px) {
+/* 
+@media screen and (min-width: 810px) { */
 
    
   
 
-    #logo {
+  /*   #logo {
         width: 25rem;
         height: auto;
     }
@@ -726,14 +691,14 @@ header nav a:active{
         text-align: center;
         justify-content: center;
         
-    }
+    } */
 
     header nav a {
         font-size: x-large;
         text-decoration: none;
     }
 
-    .indicaciones {
+  /*   .indicaciones {
         display: inline-block;
         display: grid;
         border: solid 3px gray;
@@ -771,9 +736,9 @@ header nav a:active{
         height: 30vh;
         margin-left: 30px;
     
-    }
+    } */
     
-    #rutina {
+  /*   #rutina {
         display: flex;
         object-fit: contain;
         width: 30vw;
@@ -782,19 +747,19 @@ header nav a:active{
         align-items: center;
         margin-left: 30px;
     
-    }
+    } */
 
-    .indicacionesArticle {
+   /*  .indicacionesArticle { */
         /* background-color: red; */
-        background-image: linear-gradient(to right, red, white);
+        /* background-image: linear-gradient(to right, red, white);
         padding-left: -100px;
         border-radius: 20px;
         width: 80%;
+         */
         
-        
-    }
+ /*    } */
 
-    header .header__burguerMenu {
+ /*    header .header__burguerMenu {
         display: none;
      
     }
@@ -802,10 +767,10 @@ header nav a:active{
     .checkMenu {
         display: none;
     }
-     
+      */
   
 
-}
-
+/* }
+ */
 
 
