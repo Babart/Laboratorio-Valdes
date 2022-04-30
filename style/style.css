@@ -509,7 +509,7 @@ header nav a:active{
 
 /* Media Queries */
 
-@media screen and (max-width: 428px) {
+/* @media screen and (max-width: 428px) { */
 
 
 
@@ -662,7 +662,7 @@ header nav a:active{
         
 
 
-        }
+        /* } */
 
 
 
@@ -693,11 +693,11 @@ header nav a:active{
         
     } */
 
-    header nav a {
+    /* header nav a {
         font-size: x-large;
         text-decoration: none;
-    }
-
+    } */
+ 
   /*   .indicaciones {
         display: inline-block;
         display: grid;

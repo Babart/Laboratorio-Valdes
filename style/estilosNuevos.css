@@ -32,7 +32,8 @@ header {
         list-style: none; }
   header .navbar-expand-lg .navbar-collapse {
     background-image: linear-gradient(to right, #d21d1d, gray);
-    border-radius: 20px; }
+    border-radius: 20px;
+    font-size: 20px; }
     header .navbar-expand-lg .navbar-collapse .container-fluid {
       background-image: linear-gradient(to left, gray, white); }
 
