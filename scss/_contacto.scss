@@ -54,7 +54,11 @@ main {
 
                 }
               
-              }
+            }
+            .boton-cancelar {
+                @extend .boton;
+                background-color: rgb(167, 167, 243);
+            }
               .contactenos {
                 align-items: center;
                 justify-content: center;
