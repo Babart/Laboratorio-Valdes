@@ -18,24 +18,30 @@ main {
             #telefono {
                 background-color: rgba(245, 165, 165, 0.96);
                 border-radius: 10px;
-                margin-bottom: 5px;
+    
                 font-size: 20px;
+                padding: 5px;
                 
             }
             #nombre {
                 background-color: rgba(245, 165, 165, 0.96);
                 border-radius: 10px;
                 font-size: 20px;
+                padding: 5px;
             }
             #message{
                 background-color: rgba(211, 204, 204, 0.96);
                 border-radius: 10px;
                 font-size: 20px;
+                margin: 30px;
+                max-width: 60%;
+                border: 1px solid black;
             }
             #email{
                 background-color: rgba(245, 165, 165, 0.96);
                 border-radius: 10px;
                 font-size: 20px;
+                padding: 5px;
             }
             .boton {
                 text-decoration: none;
@@ -44,7 +50,7 @@ main {
                 width: 5rem;
                 height: 5rem;
                 border-radius: 5px;
-                background-color: rgba(135, 131, 131, 0.83);
+                background-color: rgba(167, 150, 150, 0.83);
                 transition: color red, background-color 0.5s ease-in;
                 &:hover {
                     color: red;
@@ -57,7 +63,7 @@ main {
             }
             .boton-cancelar {
                 @extend .boton;
-                background-color: rgb(167, 167, 243);
+                background-color: rgb(241, 201, 201)
             }
               .contactenos {
                 align-items: center;

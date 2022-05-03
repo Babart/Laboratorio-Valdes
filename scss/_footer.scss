@@ -12,14 +12,14 @@
 
 footer {
     
-    background-color: rgb(194, 193, 193);
+    background-color: $colorFondoFooter;
 
     .foot {
     
         font-size: 20px;
         text-align: center;
         justify-content: center;
-        background-image: linear-gradient(to left, gray, white);
+        background-image: $colorFondoTM;
         
     }
     .socialMedia {

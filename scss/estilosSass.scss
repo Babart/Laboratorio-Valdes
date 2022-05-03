@@ -6,7 +6,15 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     
 }
+//Variables
 
+@import "variables.scss";
+
+@import "extend.scss";
+
+@import "maps.scss";
+
+@import "mixins.scss";
 
  //HEADER SASS 
 
@@ -24,8 +32,6 @@
 @import "covid.scss";
 
 @import "contacto.scss";
-
-@import "extend.scss";
 
 
 //FOOTER SASS
