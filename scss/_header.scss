@@ -15,7 +15,8 @@ header {
     width: 100%;
     
     .encabezado {
-        display: flex; 
+        display: flex;
+        
     
         .datosEncabezado {
             border: solid 5px rgb(228, 223, 223);
@@ -27,8 +28,13 @@ header {
             text-shadow: 2px 2px 3px rgb(0, 0, 0) ;
             background-image: $colorEncabezadoFondo;
             width: 100%;
+            @media (max-width:427px) {
+                display: none;
+            } 
+            
             li {
                 list-style: none;
+                
             }
             
         }

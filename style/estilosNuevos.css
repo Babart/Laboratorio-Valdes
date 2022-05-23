@@ -55,6 +55,9 @@ header {
       text-shadow: 2px 2px 3px black;
       background-image: linear-gradient(to left, gray, white);
       width: 100%; }
+      @media (max-width: 427px) {
+        header .encabezado .datosEncabezado {
+          display: none; } }
       header .encabezado .datosEncabezado li {
         list-style: none; }
   header .navbar-expand-lg .navbar-collapse {
@@ -147,7 +150,7 @@ main .accordion-body {
   .resultadoMain .homeIndex {
     margin-left: 10px;
     text-align: center;
-    font-size: 30px; }
+    font-size: 20px; }
   .resultadoMain .recicle {
     width: 100%; }
 
